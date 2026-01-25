@@ -49,6 +49,11 @@
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
+    {% if entry.award or entry.award_name %}
+      <div class="pub-award" style="color:#d32f2f; font-weight:600; margin-bottom:4px;">
+        🏆 {{ entry.award_name | default: entry.award }}
+      </div>
+    {% endif %}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
