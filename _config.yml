@@ -29,14 +29,11 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 email: elsharkawy@gm.gist.ac.kr
 scholar_userid: w6GDurIAAAAJ
-google_scholar: true
 linkedin_username: ahmedelsharkawy3
 # github_username: AhmedIbrahimElsharkawy  <-- Uncomment if you want the GitHub cat icon too
 
-# --- Settings to Remove the Messy Icons ---
-rss_icon: false       # Removes the Wifi/RSS icon
-wechat_qr: false      # Removes the Einstein image
-cv_pdf: false         # Removes the large "CV" link
+# Disable RSS icon (al-folio standard)
+enable_rss: false
 
 # -----------------------------------------------------------------------------
 # Theme
