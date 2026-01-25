@@ -414,12 +414,7 @@ ninja.data = [{
           section: "News",},{id: "news-attennding-hci-korea-conference-at-sono-belle-vivaldi-park-convention-center-hongcheon-republic-of-korea",
           title: 'Attennding HCI Korea conference at Sono Belle Vivaldi Park Convention Center (Hongcheon, Republic...',
           description: "",
-          section: "News",},{id: "news-announcement-2",
-          title: 'Announcement_2',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "projects-project-1",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
