@@ -405,11 +405,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{id: "news-attended-chi-2025-in-yokohama-japan",
           title: 'Attended CHI 2025 in Yokohama, Japan.',
           description: "",
@@ -419,7 +414,12 @@ ninja.data = [{
           section: "News",},{id: "news-attennding-hci-korea-conference-at-sono-belle-vivaldi-park-convention-center-hongcheon-republic-of-korea",
           title: 'Attennding HCI Korea conference at Sono Belle Vivaldi Park Convention Center (Hongcheon, Republic...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-announcement-2",
+          title: 'Announcement_2',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
