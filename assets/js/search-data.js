@@ -410,7 +410,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-delivered-a-seminar-titled-physical-ai-in-action-tackling-hci-challenges-with-xr-enhanced-robotics-at-gist",
+            },},{id: "news-attended-chi-2025-in-yokohama-japan",
+          title: 'Attended CHI 2025 in Yokohama, Japan.',
+          description: "",
+          section: "News",},{id: "news-delivered-a-seminar-titled-physical-ai-in-action-tackling-hci-challenges-with-xr-enhanced-robotics-at-gist",
           title: 'Delivered a seminar titled “Physical AI in Action: Tackling HCI Challenges with XR-Enhanced...',
           description: "",
           section: "News",},{id: "news-attennding-hci-korea-conference-at-sono-belle-vivaldi-park-convention-center-hongcheon-republic-of-korea",
