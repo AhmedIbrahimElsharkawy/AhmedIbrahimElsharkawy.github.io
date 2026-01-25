@@ -25,17 +25,6 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-email: elsharkawy@gm.gist.ac.kr
-scholar_userid: w6GDurIAAAAJ
-linkedin_username: ahmedelsharkawy3
-# github_username: AhmedIbrahimElsharkawy  <-- Uncomment if you want the GitHub cat icon too
-
-# Disable RSS icon (al-folio standard)
-enable_rss: false
-
-# -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
 
