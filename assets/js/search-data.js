@@ -410,8 +410,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-delivered-a-seminar-titled-physical-ai-in-action-tackling-hci-challenges-with-xr-enhanced-robotics-at-gist",
+          title: 'Delivered a seminar titled “Physical AI in Action: Tackling HCI Challenges with XR-Enhanced...',
           description: "",
           section: "News",},{id: "news-attennding-hci-korea-conference-at-sono-belle-vivaldi-park-convention-center-hongcheon-republic-of-korea",
           title: 'Attennding HCI Korea conference at Sono Belle Vivaldi Park Convention Center (Hongcheon, Republic...',
