@@ -46,7 +46,7 @@
             {% assign video_path = entry.preview | prepend: '/assets/video/' %}
             <video class="preview z-depth-1 rounded"
                    autoplay loop muted playsinline preload="metadata"
-                   style="width:200px;height:auto;">
+                   style="width:200px; height:120px; object-fit:cover; display:block;">
               <source src="{{ video_path | relative_url }}" type="video/mp4">
             </video>
           {% else %}
