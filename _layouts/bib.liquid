@@ -61,9 +61,23 @@
     {% else %}
       <div class="title">{{ entry.title }}</div>
     {% endif %}
-    {% if entry.award or entry.award_name %}
+    {% assign award_text = entry.award_name | default: entry.award %}
+    {% if award_text %}
+      {% assign award_text_lc = award_text | downcase %}
+    
+      {%- comment -%}
+      Emoji rules:
+      - Best Paper / Honorable Mention -> trophy
+      - People’s Choice / Best Demo -> audience choice -> clapping
+      {%- endcomment -%}
+    
+      {% assign award_emoji = "🏆" %}
+      {% if award_text_lc contains "people" and award_text_lc contains "choice" and award_text_lc contains "demo" %}
+        {% assign award_emoji = "👏" %}
+      {% endif %}
+    
       <div class="pub-award" style="color:#d32f2f; font-weight:600; margin-bottom:4px;">
-        🏆 {{ entry.award_name | default: entry.award }}
+        {{ award_emoji }} {{ award_text }}
       </div>
     {% endif %}
     <!-- Author -->
