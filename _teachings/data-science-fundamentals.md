@@ -1,13 +1,14 @@
 ---
 layout: course
-title: Data Science Fundamentals
-description: This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.
-instructor: Prof. Data
-year: 2024
+title: Research Methods in Human-Computer Interaction (RM in HCI)
+description: This course focuses on a detailed overview of research methods in Human-Computer Interaction (HCI) and a hands-on experience from experimental design to statistical analysis of collected data. It includes surveys and diaries, case studies, interviews and focus groups, ethnography, usability testing, analyzing qualitative data, automated collection methods, sensor-based understanding the human, working with human subjects, as well as application-specific research methods (e.g., Research methods to evaluate AI+vehicle/energy/healthcare).
+
+Instructors: Prof. SeungJun Kim (Main) & Dr. Ahmed Elsharkawy (Co-Instructor)
+year: 2025
 term: Spring
-location: Science Building, Room 202
-time: Mondays and Wednesdays, 2:00-3:30 PM
-course_id: data-science-fundamentals
+#location: Science Building, Room 202
+time: Mondays and Wednesdays, 10:30-12:00 AM
+course_id: AI6317-01
 schedule:
   - week: 1
     date: Feb 5
@@ -87,11 +88,12 @@ This course provides a comprehensive introduction to data science principles and
 
 ## Textbooks
 
-- "Python for Data Analysis" by Wes McKinney
-- "Data Science from Scratch" by Joel Grus
+- "Research Methods in Human-Computer Interaction 2nd Edition" (by Jonathan Lazar, Jinjuan Heidi Feng, Harry Hochheiser), Elsevier, Morgan Kaufmann Publishers
+- "Innovating for People: Handbook of Human-Centered Design Methods" 1st Ediition (by LUMA Institute)
+- Academic papers at ACM CHI, UIST, Ubicomp, VR, ISMAR Conferences in HCI domains
 
 ## Grading
 
-- Assignments: 50%
-- Project: 40%
-- Participation: 10%
+- Homework: 30%
+- Proposal: 20%
+- Final Exam: 50%
