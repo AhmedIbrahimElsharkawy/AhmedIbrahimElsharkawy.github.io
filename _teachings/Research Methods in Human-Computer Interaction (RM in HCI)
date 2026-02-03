@@ -71,6 +71,8 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
 ---
 
+
+<!--
 ## Course Overview
 
 This course provides a comprehensive introduction to data science principles and practices. Students will:
@@ -79,13 +81,15 @@ This course provides a comprehensive introduction to data science principles and
 - Gain practical experience with data manipulation tools
 - Develop skills in data visualization and communication
 - Apply statistical methods to derive insights from data
+-->
 
+<!--
 ## Prerequisites
 
 - Basic programming knowledge (preferably in Python)
 - Introductory statistics
 - Comfort with basic algebra
-
+-->
 ## Textbooks
 
 - "Research Methods in Human-Computer Interaction 2nd Edition" (by Jonathan Lazar, Jinjuan Heidi Feng, Harry Hochheiser), Elsevier, Morgan Kaufmann Publishers
