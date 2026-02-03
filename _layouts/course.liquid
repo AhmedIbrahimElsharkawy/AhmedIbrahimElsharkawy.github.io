@@ -22,7 +22,7 @@ layout: page
     </div>
   {% endif %}
 
-  {{ content }}
+  {{ content | markdownify }}
 
   {% if page.schedule %}
     <h2>Schedule</h2>
