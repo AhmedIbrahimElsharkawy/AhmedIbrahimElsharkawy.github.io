@@ -2,7 +2,7 @@
 layout: course
 title: Research Methods in Human-Computer Interaction (RM in HCI)
 description: This course focuses on a detailed overview of research methods in Human-Computer Interaction (HCI) and a hands-on experience from experimental design to statistical analysis of collected data. It includes surveys and diaries, case studies, interviews and focus groups, ethnography, usability testing, analyzing qualitative data, automated collection methods, sensor-based understanding the human, working with human subjects, as well as application-specific research methods (e.g., Research methods to evaluate AI+vehicle/energy/healthcare).
-Instructors: Prof. SeungJun Kim (Main) & Dr. Ahmed Elsharkawy (Co-Instructor)
+instructors: Prof. SeungJun Kim (Main) & Dr. Ahmed Elsharkawy (Co-Instructor)
 year: 2025
 term: Spring
 time: Mondays and Wednesdays, 10:30-12:00 AM
@@ -17,7 +17,6 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
       - name: Slides
         url: /assets/pdf/example_pdf.pdf
-
   - week: 2
     date: Feb 12
     topic: Data Collection and APIs
@@ -27,7 +26,6 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
       - name: Assignment 1
         url: /assets/pdf/example_pdf.pdf
-
   - week: 3
     date: Feb 19
     topic: Data Cleaning and Preprocessing
@@ -37,7 +35,6 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
       - name: Coding Lab
         url: https://github.com/
-
   - week: 4
     date: Feb 26
     topic: Exploratory Data Analysis
@@ -47,7 +44,6 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
       - name: Assignment 2
         url: /assets/pdf/example_pdf.pdf
-
   - week: 5
     date: Mar 4
     topic: Statistical Analysis
@@ -57,7 +53,6 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
       - name: Review Materials
         url: /assets/pdf/example_pdf.pdf
-
   - week: 6
     date: Mar 11
     topic: Data Visualization
@@ -69,10 +64,20 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
 ---
 
+{% comment %}
+## Course Overview
+... (hidden)
+{% endcomment %}
+
+{% comment %}
+## Prerequisites
+... (hidden)
+{% endcomment %}
+
 ## Textbooks
 
 - "Research Methods in Human-Computer Interaction 2nd Edition" (by Jonathan Lazar, Jinjuan Heidi Feng, Harry Hochheiser), Elsevier, Morgan Kaufmann Publishers
-- "Innovating for People: Handbook of Human-Centered Design Methods" 1st Ediition (by LUMA Institute)
+- "Innovating for People: Handbook of Human-Centered Design Methods" 1st Edition (by LUMA Institute)
 - Academic papers at ACM CHI, UIST, Ubicomp, VR, ISMAR Conferences in HCI domains
 
 ## Grading
