@@ -72,7 +72,7 @@ schedule:
 ---
 
 
-<!--
+```text
 ## Course Overview
 
 This course provides a comprehensive introduction to data science principles and practices. Students will:
@@ -81,15 +81,14 @@ This course provides a comprehensive introduction to data science principles and
 - Gain practical experience with data manipulation tools
 - Develop skills in data visualization and communication
 - Apply statistical methods to derive insights from data
--->
+...text...
 
-<!--
 ## Prerequisites
 
 - Basic programming knowledge (preferably in Python)
 - Introductory statistics
 - Comfort with basic algebra
--->
+...text...
 
 ## Textbooks
 
