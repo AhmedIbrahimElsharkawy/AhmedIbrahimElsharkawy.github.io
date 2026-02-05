@@ -3,6 +3,7 @@
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-4 abbr">
+      {%- comment -%}
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
@@ -20,6 +21,7 @@
             {% else %}
               <div>{{- entry.abbr -}}</div>
             {% endif %}
+            {%- endcomment -%}
           </abbr>
         {% else %}
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
@@ -214,6 +216,16 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
+    {% if entry.abbr %}
+      {% assign abbr_label = entry.abbr %}
+      {% if entry.year %}
+        {% assign y2 = entry.year | append: "" | slice: -2, 2 %}
+        {% assign abbr_label = entry.abbr | append: "-" | append: y2 %}
+      {% endif %}
+      <div class="mb-2">
+        <span class="badge badge-primary">{{ abbr_label }}</span>
+      </div>
+    {% endif %}
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
