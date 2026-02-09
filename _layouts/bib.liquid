@@ -68,18 +68,33 @@
       {% assign award_text_lc = award_text | downcase %}
     
       {%- comment -%}
-      Emoji rules:
-      - Best Paper / Honorable Mention -> trophy
-      - People’s Choice / Best Demo -> audience choice -> clapping
+      Award icon rules:
+      - Best Paper / Honorable Mention -> 🏆
+      - Demo Honorable Mention -> 🎖️
+      - People’s Choice Best Demo -> 👏
+      If combined (Demo + People’s Choice), show both: 🎖️👏
       {%- endcomment -%}
     
-      {% assign award_emoji = "🏆" %}
-      {% if award_text_lc contains "people" and award_text_lc contains "choice" and award_text_lc contains "demo" %}
-        {% assign award_emoji = "👏" %}
-      {% endif %}
+      {% assign award_icons = "" %}
+    
+      {%- if award_text_lc contains "best paper" -%}
+        {%- assign award_icons = award_icons | append: "🏆 " -%}
+      {%- endif -%}
+    
+      {%- if award_text_lc contains "demo" and award_text_lc contains "honorable mention" -%}
+        {%- assign award_icons = award_icons | append: "🎖️ " -%}
+      {%- endif -%}
+    
+      {%- if award_text_lc contains "people" and award_text_lc contains "choice" and award_text_lc contains "best demo" -%}
+        {%- assign award_icons = award_icons | append: "👏 " -%}
+      {%- endif -%}
+    
+      {%- if award_icons == "" -%}
+        {%- assign award_icons = "🏆 " -%}
+      {%- endif -%}
     
       <div class="pub-award" style="color:#d32f2f; font-weight:600; margin-bottom:4px;">
-        {{ award_emoji }} {{ award_text }}
+        {{ award_icons }}{{ award_text }}
       </div>
     {% endif %}
     <!-- Author -->
