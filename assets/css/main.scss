@@ -24,3 +24,13 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// --------------------------------------------------
+// YOUR CUSTOM STYLES (ADD BELOW THIS LINE)
+// --------------------------------------------------
+
+.pub-note {
+  color: #d32f2f;   /* change to any color you want */
+  font-weight: 700;
+  margin-top: 4px;
+}
