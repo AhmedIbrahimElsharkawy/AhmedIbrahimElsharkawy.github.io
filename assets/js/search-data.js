@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-",
-    title: "",
+    id: "nav-about",
+    title: "about",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -472,7 +472,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/%7B%22icon%22=%3E%22fas%20fa-file-pdf%22,%20%22url%22=%3E%22/assets/pdf/ac_p_Ahmed_Elsharkawy_CV_Jan_2026_3.pdf%22,%20%22target%22=%3E%22_blank%22%7D", "_blank");
+          window.open("/assets/pdf/ac_p_Ahmed_Elsharkawy_CV_Jan_2026_3.pdf", "_blank");
         },
       },{
         id: 'social-email',
