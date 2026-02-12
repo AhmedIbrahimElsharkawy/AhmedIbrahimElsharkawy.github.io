@@ -14,64 +14,50 @@ course_id: RT5301-01
 schedule:
   - week: 1st
     description: Introduction to HCI Research (What is HCI?, curriculum, historical context, research methods, contribution types)
-    note: Part 1 & Part 2
-
+    note: 
   - week: 2nd
     description: Interaction Design (Interfaces - Part 1): Command-based, WIMP, GUIs, Web, Mobile
-    note: T1
-
+    note: 
   - week: 3rd
     description: Interaction Design (Interfaces - Part 2 & 3): VR interfaces, AR & MR interfaces, Haptic; InfoVis, dashboards, consumer electronics, shareable interfaces, BCI
-    note: T1
-
+    note:
   - week: 4th
     description: HCI Research Groups I, II, III (In-Vehicle XR, Human-AV Interaction, Sports HCI, Large-Action Models, Generative XR Media)
     note:
-
   - week: 5th
     description: The Psychopathology of Everyday Things (Fundamental principles of interaction, conceptual model, system image, paradox of technology)
-    note: T2
-
+    note:
   - week: 6th
     description: The Psychology of Everyday Actions (Gulfs of execution and evaluation, human cognition and emotion)
-    note: T2
-
+    note: 
   - week: 7th
     description: Theories and Principles (Usability heuristics for UI design)
-    note: Individual Presentation / Audience Feedback
-
+    note:
   - week: 8th
     description: Mid-term break (No exam; possible classes)
     note:
-
   - week: 9th
     description: Experimental Research & Design I (How to conduct an HCI study, types of HCI research)
-    note: Individual Presentation
-
+    note:
   - week: 10th
     description: Experimental Research & Design II (Research hypotheses, independent vs. dependent variables in HCI)
     note: Individual Presentation / Audience Feedback
 
   - week: 11th
     description: Experimental Research & Design III (Significance testing, counter-balancing, within-group vs. between-group design)
-    note: Individual Presentation
-
+    note: 
   - week: 12th
     description: HCI Research Methods & Prototyping Overview (Surveys, interviews, contextual inquiry, focus groups)
-    note: Individual Presentation / Audience Feedback
-
+    note:
   - week: 13th
     description: Prototyping Methods (Storyboards, sketch & paper prototype, cardboard prototype, Wizard-of-Oz prototyping)
-    note: Individual Presentation / Audience Feedback
-
+    note:
   - week: 14th
     description: Innovating for People: Human-Centered Design Methods (Looking, understanding, making)
-    note: Individual Presentation
-
+    note: 
   - week: 15th
     description: Guidelines of Human-AI Interaction Design; Introduction to Human-AI Interaction topics (XR, Physical AI, Embodied Agents)
-    note: Individual Presentation / Audience Feedback
-
+    note: 
   - week: 16th
     description: Final-term break (No exam; possible individual presentations)
     note:
@@ -94,7 +80,7 @@ schedule:
 - Research Methods in Human-Computer Interaction 2nd Edition (by Jonathan Lazar, Jinjuan Heidi Feng, Harry Hochheiser), Elsevier, Morgan Kaufmann Publishers
 - Human-Computer Interaction: An Empirical Research Perspective (by I. Scott MacKenzie), Elsevier, Morgan Kaufmann; 1 edition (January 25, 2013)
 - Innovating for People: Handbook of Human-Centered Design Methods, LUMA Institute; 1st edition (2012)
-- (Readings: State-of-Art HCI studies) Papers on HCI top-tier conferences such as ACM CHI, ACM UIST, ACM CSCW, ACM Ubicomp (See https://scholar.google.com/citations?view_op=top_venues&vq=eng_humancomputerinteraction)
+- (Readings: State-of-Art HCI studies) Papers on HCI top-tier conferences such as ACM CHI, ACM UIST, ACM CSCW, ACM Ubicomp (See https://scholar.google.com/citations view_op=top_venues&vq=eng_humancomputerinteraction)
 
 ## Grading
 
