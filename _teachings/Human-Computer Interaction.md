@@ -16,7 +16,7 @@ schedule:
     description: Introduction to HCI Research (What is HCI?, curriculum, historical context, research methods, contribution types)
     note: 
   - week: 2nd
-    description: Interaction Design (Interfaces - Part 1): Command-based, WIMP, GUIs, Web, Mobile
+    description: Interaction Design (Interfaces - Part 1) "Command-based, WIMP, GUIs, Web, Mobile."
     note: 
   - week: 3rd
     description: Interaction Design (Interfaces - Part 2 & 3): VR interfaces, AR & MR interfaces, Haptic; InfoVis, dashboards, consumer electronics, shareable interfaces, BCI
