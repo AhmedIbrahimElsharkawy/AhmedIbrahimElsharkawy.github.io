@@ -1,5 +1,4 @@
 ---
----
 layout: course
 title: Human-Computer Interaction
 description: >
