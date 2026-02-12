@@ -482,6 +482,13 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/3-%20Research%20Methods%20in%20Human-Computer%20Interaction%20(RM%20in%20HCI)/";
             },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/ac_p_Ahmed_Elsharkawy_CV_Jan_2026_3.pdf", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
