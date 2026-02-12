@@ -461,7 +461,7 @@ ninja.data = [{
           title: 'Research Methods in Human-Computer Interaction (RM in HCI)',
           description: "This course focuses on a detailed overview of research methods in Human-Computer Interaction (HCI) and a hands-on experience from experimental design to statistical analysis of collected data. It includes surveys and diaries, case studies, interviews and focus groups, ethnography, usability testing, analyzing qualitative data, automated collection methods, sensor-based understanding the human, working with human subjects, as well as application-specific research methods (e.g., Research methods to evaluate AI+vehicle/energy/healthcare).",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/2%20-%20Research%20Methods%20in%20Human-Computer%20Interaction%20(RM%20in%20HCI)/";
+              window.location.href = "/teachings/2_Research%20Methods%20in%20Human-Computer%20Interaction%20(RM%20in%20HCI)/";
             },},{id: "teachings-research-methods-in-human-computer-interaction-rm-in-hci",
           title: 'Research Methods in Human-Computer Interaction (RM in HCI)',
           description: "This course focuses on a detailed overview of research methods in Human-Computer Interaction (HCI) and a hands-on experience from experimental design to statistical analysis of collected data. It includes surveys and diaries, case studies, interviews and focus groups, ethnography, usability testing, analyzing qualitative data, automated collection methods, sensor-based understanding the human, working with human subjects, as well as application-specific research methods (e.g., Research methods to evaluate AI+vehicle/energy/healthcare).",
