@@ -2,7 +2,7 @@
 layout: course
 title: Human-Computer Interaction
 description: >
-This course provides an introductory overview of Human-Computer Interaction (HCI). It introduces students to major research areas in HCI, including interactive, mobile, wearable, and ubiquitous technologies, as well as Human–Robot Interaction. The course covers fundamental research methods, tools, techniques, and key sources of knowledge in HCI. It also provides a systematic approach to designing and conducting human-subject experiments. The course is open to both undergraduate and graduate students who do not have a prior background in HCI.
+ This course provides an introductory overview of Human-Computer Interaction (HCI). It introduces students to major research areas in HCI, including interactive, mobile, wearable, and ubiquitous technologies, as well as Human–Robot Interaction. The course covers fundamental research methods, tools, techniques, and key sources of knowledge in HCI. It also provides a systematic approach to designing and conducting human-subject experiments. The course is open to both undergraduate and graduate students who do not have a prior background in HCI.
 instructors: Prof. SeungJun Kim (Main lecturer) & Dr. Ahmed Elsharkawy (Co-lecturer)
 year: 2025
 term: Spring
