@@ -6,7 +6,7 @@ subtitle: <a href='https://sites.google.com/view/gist-hcis-lab/'> Postdoctoral R
 
 profile:
   align: right
-  image: ahmed.jpg
+  image: ahmed_2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>123 Cheomdangwagi-ro (Oryong-dong), Dasan Building Room 201; </p>
