@@ -1,0 +1,1 @@
+19/01/2026 - Group photo of HCIS Lab members. Congratulations to Dr. Won Kim on his appointment as an Assistant Professor at Chosun University. I also extend my sincere congratulations to all Master’s candidates who will graduate this winter.
