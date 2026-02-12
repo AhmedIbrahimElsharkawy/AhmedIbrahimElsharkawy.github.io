@@ -472,8 +472,8 @@ ninja.data = [{
           description: "This course provides an opportunity to conduct a through paper review about the topics of students&#39; own individual or group HCI+AI projects. Students will be asked to read and review a series of the seminal literature drawn primarily from top-tier conferences and journals of ACM SIGCHI (https://programs.sigchi.org/) including, but not limited to, ACM CHI, ACM UbiComp, ACM UIST, ACM CSCW, IEEE ISMAR, ACM/IEEE HRI, ACM IUI, and so on.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/HCI+AI%20research%20trends%20and%20technical%20analysis/";
-            },},{id: "teachings-human-computer-interaction",
-          title: 'Human Computer interaction',
+            },},{id: "teachings-",
+          title: '',
           description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Human-Computer%20Interaction/";
