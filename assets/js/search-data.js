@@ -466,7 +466,7 @@ ninja.data = [{
           title: 'Research Methods in Human-Computer Interaction (RM in HCI)',
           description: "This course focuses on a detailed overview of research methods in Human-Computer Interaction (HCI) and a hands-on experience from experimental design to statistical analysis of collected data. It includes surveys and diaries, case studies, interviews and focus groups, ethnography, usability testing, analyzing qualitative data, automated collection methods, sensor-based understanding the human, working with human subjects, as well as application-specific research methods (e.g., Research methods to evaluate AI+vehicle/energy/healthcare).",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/3-%20Research%20Methods%20in%20Human-Computer%20Interaction%20(RM%20in%20HCI)/";
+              window.location.href = "/teachings/3_Research%20Methods%20in%20Human-Computer%20Interaction%20(RM%20in%20HCI)/";
             },},{id: "teachings-hci-ai-research-trends-and-technical-analysis",
           title: 'HCI+AI research trends and technical analysis',
           description: "This course provides an opportunity to conduct a through paper review about the topics of students&#39; own individual or group HCI+AI projects. Students will be asked to read and review a series of the seminal literature drawn primarily from top-tier conferences and journals of ACM SIGCHI (https://programs.sigchi.org/) including, but not limited to, ACM CHI, ACM UbiComp, ACM UIST, ACM CSCW, IEEE ISMAR, ACM/IEEE HRI, ACM IUI, and so on.",
