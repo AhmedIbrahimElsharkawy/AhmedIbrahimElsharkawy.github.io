@@ -4,6 +4,8 @@ title: about
 permalink: /
 subtitle: <a href='https://sites.google.com/view/gist-hcis-lab/'> Postdoctoral Researcher</a> @ GIST (HCIS Lab) & DGIST InnoCORE
 
+**CV:** [Download (PDF)](/assets/pdf/ac_p_Ahmed_Elsharkawy_CV_Jan_2026_3.pdf){:target="_blank"}
+
 profile:
   align: right
   image: ahmed_5.jpg
@@ -27,6 +29,3 @@ latest_posts:
 ---
 
 I am a **Postdoctoral Researcher** at the [Gwangju Institute of Science and Technology (GIST)](https://www.gist.ac.kr/). Concurrently, I serve as a postdoctoral researcher for the **DGIST InnoCORE Research Group**, focusing on Bio-Embodied Physical AI. Prior to my current position, I served as a **Research Assistant Professor** in the department of AI convergence at GIST for one year. I received my Ph.D. in **Integrated Technology** (specializing in **Intelligent Robotics**) from GIST in 2023. Before that, I earned my M.S. in **Mechatronics Engineering** from GIST in 2017. My research lies at the intersection of **Human Computer/Robot Interaction**, **Extended Reality**, and **Physical AI**. 
-
-
-**CV:** [Download (PDF)](/assets/pdf/ac_p_Ahmed_Elsharkawy_CV_Jan_2026_3.pdf){:target="_blank"}
