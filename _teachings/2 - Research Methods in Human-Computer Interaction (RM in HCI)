@@ -1,0 +1,83 @@
+---
+layout: course
+title: Research Methods in Human-Computer Interaction (RM in HCI)
+description: This course focuses on a detailed overview of research methods in Human-Computer Interaction (HCI) and a hands-on experience from experimental design to statistical analysis of collected data. It includes surveys and diaries, case studies, interviews and focus groups, ethnography, usability testing, analyzing qualitative data, automated collection methods, sensor-based understanding the human, working with human subjects, as well as application-specific research methods (e.g., Research methods to evaluate AI+vehicle/energy/healthcare).
+instructors: Prof. SeungJun Kim (Main) & Dr. Ahmed Elsharkawy (Co-Instructor)
+year: 2024
+term: Fall
+time: Mondays and Wednesdays, 10:30-12:00 AM
+course_id: RT5302-01
+
+# New schedule schema (3 columns): week / description / note
+schedule:
+  - week: 1st
+    description: HCI Overview / LUMA Opening
+    note:
+  - week: 2nd
+    description: Experimental Research
+    note:
+  - week: 3rd
+    description: Experimental Design
+    note:
+  - week: 4th
+    description: Ask the Users + Analyzing Qualitative Data
+    note:
+  - week: 5th
+    description: Surveys, Goals, Target Users, Sampling Methods
+    note:
+  - week: 6th
+    description: Measuring the Human
+    note:
+  - week: 7th
+    description: Warm up, HCI Research Examples
+    note:
+  - week: 8th
+    description: Prototype + Wizard-of-Oz Examples
+    note:
+  - week: 9th
+    description: Mid Term, No Class / Homework Week
+    note:
+  - week: 10th
+    description: Rapid Prototyping Tool (Practice, Unity)
+    note:
+  - week: 11th
+    description: Working with Human Subjects (Practice, Participants in Human-Subject Experiments)
+    note:
+  - week: 12th
+    description: Working with Research Participants With Disabilities
+    note:
+  - week: 13th
+    description: Statistical Analysis (Practice, JASP)
+    note:
+  - week: 14th
+    description: HCI Study Proposal / HCI Paper Readings or Reviews
+    note:
+  - week: 15th
+    description: HCI Study Proposal / HCI Paper Readings or Reviews
+    note:
+  - week: 16th
+    description: Final Term
+    note:
+---
+
+{% comment %}
+## Course Overview
+... (hidden)
+{% endcomment %}
+
+{% comment %}
+## Prerequisites
+... (hidden)
+{% endcomment %}
+
+## Textbooks
+
+- "Research Methods in Human-Computer Interaction 2nd Edition" (by Jonathan Lazar, Jinjuan Heidi Feng, Harry Hochheiser), Elsevier, Morgan Kaufmann Publishers
+- "Innovating for People: Handbook of Human-Centered Design Methods" 1st Edition (by LUMA Institute)
+- Academic papers at ACM CHI, UIST, Ubicomp, VR, ISMAR Conferences in HCI domains
+
+## Grading
+
+- Homework: 30%
+- Proposal: 20%
+- Final Exam: 50%
