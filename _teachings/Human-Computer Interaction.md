@@ -19,7 +19,7 @@ schedule:
     description: Interaction Design (Interfaces - Part 1) "Command-based, WIMP, GUIs, Web, Mobile."
     note: 
   - week: 3rd
-    description: Interaction Design (Interfaces - Part 2 & 3): VR interfaces, AR & MR interfaces, Haptic; InfoVis, dashboards, consumer electronics, shareable interfaces, BCI
+    description: Interaction Design (Interfaces - Part 2 & 3)"VR interfaces, AR & MR interfaces, Haptic; InfoVis, dashboards, consumer electronics, shareable interfaces, BCI."
     note:
   - week: 4th
     description: HCI Research Groups I, II, III (In-Vehicle XR, Human-AV Interaction, Sports HCI, Large-Action Models, Generative XR Media)
@@ -53,7 +53,7 @@ schedule:
     description: Prototyping Methods (Storyboards, sketch & paper prototype, cardboard prototype, Wizard-of-Oz prototyping)
     note:
   - week: 14th
-    description: Innovating for People: Human-Centered Design Methods (Looking, understanding, making)
+    description: Innovating for People (Human-Centered Design Methods (Looking, understanding, making))
     note: 
   - week: 15th
     description: Guidelines of Human-AI Interaction Design; Introduction to Human-AI Interaction topics (XR, Physical AI, Embodied Agents)
