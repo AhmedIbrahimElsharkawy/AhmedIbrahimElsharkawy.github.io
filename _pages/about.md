@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: **Postdoctoral Fellow** @ DGIST InnoCORE & GIST (<a href='https://sites.google.com/view/gist-hcis-lab/'> HCIS Lab </a>)
+subtitle: "<strong>Postdoctoral Fellow</strong> @ DGIST InnoCORE &amp; GIST (<a href='https://sites.google.com/view/gist-hcis-lab/'>HCIS Lab</a>)"
 
 profile:
   align: right
