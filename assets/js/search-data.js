@@ -472,9 +472,9 @@ ninja.data = [{
           description: "This course provides an opportunity to conduct a through paper review about the topics of students&#39; own individual or group HCI+AI projects. Students will be asked to read and review a series of the seminal literature drawn primarily from top-tier conferences and journals of ACM SIGCHI (https://programs.sigchi.org/) including, but not limited to, ACM CHI, ACM UbiComp, ACM UIST, ACM CSCW, IEEE ISMAR, ACM/IEEE HRI, ACM IUI, and so on.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/HCI+AI%20research%20trends%20and%20technical%20analysis/";
-            },},{id: "teachings-",
-          title: '',
-          description: "",
+            },},{id: "teachings-human-computer-interaction",
+          title: 'Human-Computer Interaction',
+          description: "This course provides an introductory overview of Human-Computer Interaction (HCI). It introduces students to major research areas in HCI, including interactive, mobile, wearable, and ubiquitous technologies, as well as Human–Robot Interaction. The course covers fundamental research methods, tools, techniques, and key sources of knowledge in HCI. It also provides a systematic approach to designing and conducting human-subject experiments. The course is open to both undergraduate and graduate students who do not have a prior background in HCI.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Human-Computer%20Interaction/";
             },},{
