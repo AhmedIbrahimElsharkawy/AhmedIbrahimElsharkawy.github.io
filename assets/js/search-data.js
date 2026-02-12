@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-",
+    title: "",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -15,20 +15,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
@@ -486,7 +472,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/ac_p_Ahmed_Elsharkawy_CV_Jan_2026_3.pdf", "_blank");
+          window.open("/%7B%22icon%22=%3E%22fas%20fa-file-pdf%22,%20%22url%22=%3E%22/assets/pdf/ac_p_Ahmed_Elsharkawy_CV_Jan_2026_3.pdf%22,%20%22target%22=%3E%22_blank%22%7D", "_blank");
         },
       },{
         id: 'social-email',
