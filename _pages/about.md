@@ -9,8 +9,7 @@ profile:
   image: ahmed_5.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>123 Cheomdangwagi-ro (Oryong-dong), Dasan Building Room 201; </p>
-    <p>Buk-gu, Gwangju, Republic of Korea, 61005</p>
+    <p>GIST, Dasan Building Room 201, 123 Cheomdangwagi-ro (Oryong-dong), Buk-gu, Gwangju, Republic of Korea, 61005</p>
 
 selected_papers: false # includes a list of papers marked as "selected={false}"
 social: true # includes social icons at the bottom of the page
