@@ -17,9 +17,18 @@
                 <span class="course-term">{{ course.term }}</span>
               {% endif %}
 
-              {% if course.instructor %}
-                <span class="course-instructor">{{ course.instructor }}</span>
-              {% endif %}
+            {% if course.instructors %}
+              <span class="course-instructor">
+                ·
+                {% if course.instructors.size %}
+                  {{ course.instructors | join: ", " }}
+                {% else %}
+                  {{ course.instructors }}
+                {% endif %}
+              </span>
+            {% elsif course.instructor %}
+              <span class="course-instructor"> · {{ course.instructor }}</span>
+            {% endif %}
             </div>
 
             {% if course.description %}
