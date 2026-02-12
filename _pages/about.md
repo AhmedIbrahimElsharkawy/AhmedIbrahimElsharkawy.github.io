@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://sites.google.com/view/gist-hcis-lab/'> Postdoctoral Researcher</a> @ GIST (HCIS Lab) & DGIST InnoCORE
+subtitle: **Postdoctoral Fellow** @ DGIST InnoCORE & GIST (<a href='https://sites.google.com/view/gist-hcis-lab/'> HCIS Lab </a>)
 
 profile:
   align: right
