@@ -407,10 +407,12 @@ ninja.data = [{
           section: "News",},{id: "news-attennding-hci-korea-conference-at-sono-belle-vivaldi-park-convention-center-hongcheon-republic-of-korea",
           title: 'Attennding HCI Korea conference at Sono Belle Vivaldi Park Convention Center (Hongcheon, Republic...',
           description: "",
-          section: "News",},{id: "news-our-proposal-for-xrway-26-xr-on-the-way-xr-for-walking-driving-and-everyday-mobility-has-been-accepted-as-an-ieee-ismar-2026-workshop-the-workshop-will-be-organized-by-researchers-from-gwangju-institute-of-science-and-technology-gist-republic-of-korea-korea-advanced-institute-of-science-amp-amp-technology-kaist-republic-of-korea-massachusetts-institute-of-technology-mit-united-states-and-toyota-research-institute-tri-united-states",
-          title: 'Our proposal for XRWay’26: XR on the Way – XR for Walking, Driving,...',
+          section: "News",},{id: "news-xrway-26-workshop-proposal-accepted-at-ieee-ismar-2026",
+          title: 'XRWay’26 workshop proposal accepted at IEEE ISMAR 2026',
           description: "",
-          section: "News",},{id: "news-the-submission-deadline-for-xrway-26-xr-on-the-way-xr-for-walking-driving-and-everyday-mobility-at-ieee-ismar-2026-has-been-extended-to-july-10-2026-aoe-we-are-currently-accepting-workshop-paper-submissions-and-accepted-papers-will-be-published-in-the-ismar-2026-adjunct-proceedings-and-made-available-through-ieee-xplore",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
+            },},{id: "news-the-submission-deadline-for-xrway-26-xr-on-the-way-xr-for-walking-driving-and-everyday-mobility-at-ieee-ismar-2026-has-been-extended-to-july-10-2026-aoe-we-are-currently-accepting-workshop-paper-submissions-and-accepted-papers-will-be-published-in-the-ismar-2026-adjunct-proceedings-and-made-available-through-ieee-xplore",
           title: 'The submission deadline for XRWay’26: XR on the Way – XR for Walking,...',
           description: "",
           section: "News",},{id: "projects-project-1",
