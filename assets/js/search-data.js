@@ -412,7 +412,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
-            },},{id: "news-xrway-26-workshop-paper-submission-deadline-extended",
+            },},{id: "news-our-research-paper-selfblending-was-featured-on-ytn-science",
+          title: 'Our research paper SelfBlending was featured on YTN Science.',
+          description: "",
+          section: "News",},{id: "news-xrway-26-workshop-paper-submission-deadline-extended",
           title: 'XRWay’26 workshop paper submission deadline extended',
           description: "",
           section: "News",handler: () => {
