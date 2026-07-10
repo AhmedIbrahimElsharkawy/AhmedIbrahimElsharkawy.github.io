@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2026-06-05 
-inline: true
+title: XRWay’26 workshop proposal accepted at IEEE ISMAR 2026
+date: 2026-06-05
+inline: false
 related_posts: false
 ---
 
