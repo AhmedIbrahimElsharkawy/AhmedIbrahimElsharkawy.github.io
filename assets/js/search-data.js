@@ -412,10 +412,12 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
-            },},{id: "news-the-submission-deadline-for-xrway-26-xr-on-the-way-xr-for-walking-driving-and-everyday-mobility-at-ieee-ismar-2026-has-been-extended-to-july-10-2026-aoe-we-are-currently-accepting-workshop-paper-submissions-and-accepted-papers-will-be-published-in-the-ismar-2026-adjunct-proceedings-and-made-available-through-ieee-xplore",
-          title: 'The submission deadline for XRWay’26: XR on the Way – XR for Walking,...',
+            },},{id: "news-xrway-26-workshop-paper-submission-deadline-extended",
+          title: 'XRWay’26 workshop paper submission deadline extended',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
