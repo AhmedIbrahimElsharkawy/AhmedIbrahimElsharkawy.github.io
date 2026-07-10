@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2026-07-05 
-inline: true
+title: XRWay’26 workshop paper submission deadline extended
+date: 2026-07-05
+inline: false
 related_posts: false
 ---
 
