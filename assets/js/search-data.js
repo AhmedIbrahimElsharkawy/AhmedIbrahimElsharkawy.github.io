@@ -420,7 +420,13 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_6/";
-            },},{id: "projects-project-1",
+            },},{id: "news-attending-brainlink-2026-omnimodal-ai-xr-convergence-in-incheon-republic-of-korea-from-august-9-11-2026",
+          title: 'Attending BrainLink 2026: “Omnimodal AI·XR Convergence” in Incheon, Republic of Korea, from August...',
+          description: "",
+          section: "News",},{id: "news-presenting-at-brainlink-2026-in-the-early-career-researchers-presentation-amp-amp-collaboration-advertisement-session-on-monday-august-10-2026-from-09-00-10-00",
+          title: 'Presenting at BrainLink 2026 in the Early-Career Researchers Presentation &amp;amp;amp; Collaboration Advertisement session...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
