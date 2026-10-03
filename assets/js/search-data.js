@@ -423,6 +423,17 @@ ninja.data = [{
             },},{id: "news-attending-brainlink-2026-omnimodal-ai-xr-convergence-in-incheon-republic-of-korea-from-august-9-11-2026",
           title: 'Attending BrainLink 2026: “Omnimodal AI·XR Convergence” in Incheon, Republic of Korea, from August...',
           description: "",
+          section: "News",},{id: "news-presented-at-brainlink-2026-from-human-robot-interaction-to-human-centered-intelligent-systems",
+          title: 'Presented at BrainLink 2026: From Human-Robot Interaction to Human-Centered Intelligent Systems',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_9/";
+            },},{id: "news-i-will-attend-ieee-ismar-2026-in-bari-italy-october-5-9-2026-and-serve-as-an-organizer-of-the-1st-international-workshop-on-xr-on-the-way-xrway-26-xr-for-walking-driving-and-everyday-mobility-on-october-5-i-will-also-chair-the-workshop-s-xr-for-walking-and-locomotion-session",
+          title: 'I will attend IEEE ISMAR 2026 in Bari, Italy, October 5–9, 2026, and...',
+          description: "",
+          section: "News",},{id: "news-i-will-present-selfblending-artificial-intelligence-driven-augmentation-with-hand-interactions-for-seamless-reality-blending-in-virtual-environments-at-ieee-ismar-2026-in-bari-italy-as-an-invited-tvcg-paper-my-presentation-is-on-october-8-2026-09-15-09-30-in-the-ps21-hand-gestures-08-30-09-30-session-all-times-are-local-to-bari-cest",
+          title: 'I will present SelfBlending: Artificial Intelligence-driven Augmentation with Hand Interactions for Seamless Reality...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
