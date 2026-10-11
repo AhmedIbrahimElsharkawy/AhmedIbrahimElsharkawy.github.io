@@ -428,8 +428,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_9/";
-            },},{id: "news-i-will-attend-ieee-ismar-2026-in-bari-italy-october-5-9-2026-and-serve-as-an-organizer-of-the-1st-international-workshop-on-xr-on-the-way-xrway-26-xr-for-walking-driving-and-everyday-mobility-on-october-5-i-will-also-chair-the-workshop-s-xr-for-walking-and-locomotion-session",
-          title: 'I will attend IEEE ISMAR 2026 in Bari, Italy, October 5–9, 2026, and...',
+            },},{id: "news-i-attended-ieee-ismar-2026-in-bari-italy-october-5-9-2026-and-served-as-an-organizer-of-the-1st-international-workshop-on-xr-on-the-way-xrway-26-xr-for-walking-driving-and-everyday-mobility-on-october-5-i-also-chaired-the-workshop-s-xr-for-walking-and-locomotion-session",
+          title: 'I attended IEEE ISMAR 2026 in Bari, Italy, October 5–9, 2026, and served...',
           description: "",
           section: "News",},{id: "news-i-will-present-selfblending-artificial-intelligence-driven-augmentation-with-hand-interactions-for-seamless-reality-blending-in-virtual-environments-at-ieee-ismar-2026-in-bari-italy-as-an-invited-tvcg-paper-my-presentation-is-on-october-8-2026-09-15-09-30-in-the-ps21-hand-gestures-08-30-09-30-session-all-times-are-local-to-bari-cest",
           title: 'I will present SelfBlending: Artificial Intelligence-driven Augmentation with Hand Interactions for Seamless Reality...',
