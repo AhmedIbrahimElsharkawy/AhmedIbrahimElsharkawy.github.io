@@ -7,8 +7,7 @@ nav: true
 nav_order: 4
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
+  # Entries are listed newest first. Each uses a caption file in _pages/ and an image in assets/img/.
   - align: right
     image: ISMAR_5.jpg
     content: people_4.md
