@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "IEEE ISMAR 2026 — XRWay’26 Workshop Organization and Session Chair"
 date: 2026-10-04 00:00:00 +0900
-inline: true
+inline: false
 related_posts: false
 ---
 
