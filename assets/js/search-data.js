@@ -505,6 +505,11 @@ ninja.data = [{
               window.location.href = "/teachings/HCI+AI%20research%20trends%20and%20technical%20analysis/";
             },},{id: "teachings-human-computer-interaction",
           title: 'Human-Computer Interaction',
+          description: "This course provides an introductory overview of Human-Computer Interaction (HCI). It introduces students to research areas in HCI, including interactive, mobile, wearable, and ubiquitous technologies, as well as Human-Robot Interaction. The course covers HCI research methods, tools, techniques, and sources of information, and provides a systematic approach to designing human-subject experiments. It is open to undergraduate and graduate students without a prior background in HCI.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Human-Computer%20Interaction%20(Fall%202026)/";
+            },},{id: "teachings-human-computer-interaction",
+          title: 'Human-Computer Interaction',
           description: "This course provides an introductory overview of Human-Computer Interaction (HCI). It introduces students to major research areas in HCI, including interactive, mobile, wearable, and ubiquitous technologies, as well as Human–Robot Interaction. The course covers fundamental research methods, tools, techniques, and key sources of knowledge in HCI. It also provides a systematic approach to designing and conducting human-subject experiments. The course is open to both undergraduate and graduate students who do not have a prior background in HCI.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/Human-Computer%20Interaction/";
