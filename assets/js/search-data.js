@@ -518,7 +518,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/ac_p_Ahmed_Elsharkawy_CV_June_2026_1.pdf", "_blank");
+          window.open("/assets/pdf/ac_p_Ahmed_Elsharkawy_CV_October_2026_1.pdf", "_blank");
         },
       },{
         id: 'social-email',
