@@ -10,6 +10,18 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
+    image: ISMAR_5.jpg
+    content: people_4.md
+    image_circular: false
+    more_info: >
+      <p>Downtown Bari, Italy</p>
+  - align: left
+    image: Anind_BrainLink.jpg
+    content: people_3.md
+    image_circular: false
+    more_info: >
+      <p>Sheraton Grand Incheon Hotel, Incheon, Republic of Korea</p>
+  - align: right
     image: People_1.jpg
     content: people_1.md
     image_circular: false # crops the image to make it circular
