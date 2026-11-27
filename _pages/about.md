@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: >-
   <strong>InnoCore Postdoctoral Fellow</strong> @ GIST (<a href="https://sites.google.com/view/gist-hcis-lab/">HCIS Lab</a>) &amp; DGIST
-  
+
 profile:
   align: right
   image: ahmed_5.jpg
@@ -28,4 +28,4 @@ latest_posts:
 
 **CV:** [Download (PDF)](/assets/pdf/ac_p_Ahmed_Elsharkawy_CV_Dec_2026_1.pdf){:target="_blank"}
 
-I am currently an **InnoCORE Postdoctoral Fellow** in the InnoCORE Research Group for Bio-Embodied Physical AI, co-affiliated with Gwangju Institute of Science and Technology (GIST) and Daegu Gyeongbuk Institute of Science and Technology (DGIST). Prior to my current position, I served as a **Research Assistant Professor** in the department of AI convergence at GIST for one year. I received my Ph.D. in **Integrated Technology** (specializing in **Intelligent Robotics**) from GIST. Before that, I earned my M.S. in **Mechatronics Engineering** from GIST. My research lies at the intersection of **Human-Computer/Robot Interaction**, **Extended Reality**, and **Physical AI**. 
+I am currently an **InnoCORE Postdoctoral Fellow** in the InnoCORE Research Group for Bio-Embodied Physical AI, co-affiliated with Gwangju Institute of Science and Technology (GIST) and Daegu Gyeongbuk Institute of Science and Technology (DGIST). Prior to my current position, I served as a **Research Assistant Professor** in the department of AI convergence at GIST for one year. I received my Ph.D. in **Integrated Technology** (specializing in **Intelligent Robotics**) from GIST. Before that, I earned my M.S. in **Mechatronics Engineering** from GIST. My research lies at the intersection of **Human-Computer/Robot Interaction**, **Extended Reality**, and **Physical AI**.
