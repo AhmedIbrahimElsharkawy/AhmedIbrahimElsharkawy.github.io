@@ -4,35 +4,36 @@
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-4 abbr">
       {%- comment -%}
-      {%- if entry.abbr -%}
-        {%- if site.data.venues[entry.abbr] -%}
-          {% assign venue_style = null %}
-          {% if site.data.venues[entry.abbr].color != blank %}
-            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
-          {%- endif -%}
-          <abbr
-            class="badge rounded w-100"
-            {% if venue_style %}
-              {{ venue_style }}
-            {% endif -%}
-          >
-            {% if site.data.venues[entry.abbr].url %}
-              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
-            {% else %}
-              <div>{{- entry.abbr -}}</div>
-            {% endif %}
-          </abbr>
-        {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+        {%- if entry.abbr -%}
+          {%- if site.data.venues[entry.abbr] -%}
+            {% assign venue_style = null %}
+            {% if site.data.venues[entry.abbr].color != blank %}
+              {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
+            {%- endif -%}
+            <abbr
+              class="badge rounded w-100"
+              {% if venue_style %}
+                {{ venue_style }}
+              {% endif -%}
+            >
+              {% if site.data.venues[entry.abbr].url %}
+                <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+              {% else %}
+                <div>{{- entry.abbr -}}</div>
+              {% endif %}
+            </abbr>
+          {% else %}
+            <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+          {% endif %}
         {% endif %}
-      {% endif %}
       {%- endcomment -%}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" style="width:100%; height:auto;">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
-          {% include figure.liquid
+          {%
+            include figure.liquid
             loading="eager"
             path=entry_path
             sizes = "360px"
@@ -49,13 +50,13 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    {% assign title_link = nil %}
+    {% assign title_link = null %}
     {% if entry.doi %}
       {% assign title_link = entry.doi | prepend: 'https://doi.org/' %}
     {% elsif entry.url %}
       {% assign title_link = entry.url %}
     {% endif %}
-    
+
     {% if title_link %}
       <div class="title">
         <a href="{{ title_link }}" target="_blank" rel="noopener">{{ entry.title }}</a>
@@ -66,35 +67,36 @@
     {% assign award_text = entry.award_name | default: entry.award %}
     {% if award_text %}
       {% assign award_text_lc = award_text | downcase %}
-    
+
       {%- comment -%}
-      Award icon rules:
-      - Best Paper / Honorable Mention -> 🏆
-      - Demo Honorable Mention -> 🎖️
-      - People’s Choice Best Demo -> 👏
-      If combined (Demo + People’s Choice), show both: 🎖️👏
+        Award icon rules:
+        - Best Paper / Honorable Mention -> 🏆
+        - Demo Honorable Mention -> 🎖️
+        - People’s Choice Best Demo -> 👏
+        If combined (Demo + People’s Choice), show both: 🎖️👏
       {%- endcomment -%}
-    
-      {% assign award_icons = "" %}
-    
-      {%- if award_text_lc contains "best paper" -%}
-        {%- assign award_icons = award_icons | append: "🏆 " -%}
+
+      {% assign award_icons = '' %}
+
+      {%- if award_text_lc contains 'best paper' -%}
+        {%- assign award_icons = award_icons | append: '🏆 ' -%}
       {%- endif -%}
-    
-      {%- if award_text_lc contains "demo" and award_text_lc contains "honorable mention" -%}
-        {%- assign award_icons = award_icons | append: "🎖️ " -%}
+
+      {%- if award_text_lc contains 'demo' and award_text_lc contains 'honorable mention' -%}
+        {%- assign award_icons = award_icons | append: '🎖️ ' -%}
       {%- endif -%}
-    
-      {%- if award_text_lc contains "people" and award_text_lc contains "choice" and award_text_lc contains "best demo" -%}
-        {%- assign award_icons = award_icons | append: "👏 " -%}
+
+      {%- if award_text_lc contains 'people' and award_text_lc contains 'choice' and award_text_lc contains 'best demo' -%}
+        {%- assign award_icons = award_icons | append: '👏 ' -%}
       {%- endif -%}
-    
-      {%- if award_icons == "" -%}
-        {%- assign award_icons = "🏆 " -%}
+
+      {%- if award_icons == '' -%}
+        {%- assign award_icons = '🏆 ' -%}
       {%- endif -%}
-    
+
       <div class="pub-award" style="color:#d32f2f; font-weight:600; margin-bottom:4px;">
-        {{ award_icons }}{{ award_text }}
+        {{ award_icons -}}
+        {{- award_text }}
       </div>
     {% endif %}
     <!-- Author -->
@@ -234,8 +236,8 @@
     {% if entry.abbr %}
       {% assign abbr_label = entry.abbr %}
       {% if entry.year %}
-        {% assign y2 = entry.year | append: "" | slice: -2, 2 %}
-        {% assign abbr_label = entry.abbr | append: "-" | append: y2 %}
+        {% assign y2 = entry.year | append: '' | slice: -2, 2 %}
+        {% assign abbr_label = entry.abbr | append: '-' | append: y2 %}
       {% endif %}
       <div class="mb-2">
         <span class="badge badge-primary">{{ abbr_label }}</span>
@@ -439,7 +441,7 @@
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
-        {% endhighlight %}
+      {% endhighlight %}
       </div>
     {% endif %}
 
